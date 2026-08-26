@@ -89,6 +89,7 @@ Skills live under `skills/<name>/`. Current inventory:
 - `skills/PR/` - templates for PRs, issues, review comments
 - `skills/feynman/` - plain-words explanation loop with self-audit
 - `skills/unslop/` - cut AI tells from writing, add human voice
+- `skills/phase-wise-checklist/` - evidence-backed, phase-wise implementation checklists
 
 [Placeholder - add new skills here as they are added. Remove entries that no
 longer apply.]

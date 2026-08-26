@@ -13,6 +13,7 @@ This is not a product repo - it is my daily toolkit for backend and general deve
 | **PR** | Templates and checklists for PRs, issues, and progress comments so every PR has the same shape | [`skills/PR/`](skills/PR/) |
 | **Feynman** | Plain-words explainer loop - forces the agent to explain anything simply until I can retell it | [`skills/feynman/`](skills/feynman/) |
 | **Unslop** | Cut AI tells from writing and add human voice - puffery, em dashes, chatbot filler (original by [cursor/plugins](https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md), copied to `skills/unslop/` for local use) | [`skills/unslop/`](skills/unslop/) |
+| **phase-wise-checklist** | Evidence-backed, phase-wise implementation checklists - one canonical plan under `plans/` as a live execution ledger | [`skills/phase-wise-checklist/`](skills/phase-wise-checklist/) |
 
 ## Install
 
@@ -33,8 +34,9 @@ npx skills add chinmay-sawant/developer-skills --list
 npx skills add chinmay-sawant/developer-skills --skill PR
 npx skills add chinmay-sawant/developer-skills --skill feynman
 npx skills add chinmay-sawant/developer-skills --skill unslop
+npx skills add chinmay-sawant/developer-skills --skill phase-wise-checklist
 
-# install all 3 skills
+# install all 4 skills
 npx skills add chinmay-sawant/developer-skills --skill '*'
 
 # interactive picker (no --skill flag)
@@ -46,8 +48,9 @@ Direct skill pages:
 - [PR](https://skills.sh/chinmay-sawant/developer-skills/PR) - `npx skills add chinmay-sawant/developer-skills --skill PR`
 - [feynman](https://skills.sh/chinmay-sawant/developer-skills/feynman) - `npx skills add chinmay-sawant/developer-skills --skill feynman`
 - [unslop](https://skills.sh/chinmay-sawant/developer-skills/unslop) - `npx skills add chinmay-sawant/developer-skills --skill unslop`
+- [phase-wise-checklist](https://skills.sh/chinmay-sawant/developer-skills/phase-wise-checklist) - `npx skills add chinmay-sawant/developer-skills --skill phase-wise-checklist`
 
-Verify locally after install: `npx skills add ./ --list` should show 3 skills.
+Verify locally after install: `npx skills add ./ --list` should show 4 skills.
 
 ## The two I reach for most
 
@@ -93,6 +96,8 @@ skills/
   feynman/
     SKILL.md
   unslop/
+    SKILL.md
+  phase-wise-checklist/
     SKILL.md
 AGENTS.md   - placeholder conventions ledger (keep per-project details here)
 README.md   - this file
