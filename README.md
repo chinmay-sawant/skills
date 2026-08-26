@@ -10,7 +10,7 @@ This is not a product repo - it is my daily toolkit.
 |-------|--------------|-------|
 | **PR** | Templates and checklists for PRs, issues, and progress comments so every PR has the same shape | [`skills/PR/`](skills/PR/) |
 | **Feynman** | Plain-words explainer loop - forces the agent to explain anything simply until I can retell it | [`skills/feynman/`](skills/feynman/) |
-| **Unslop** | Cut AI tells from writing and add human voice - puffery, em dashes, chatbot filler | [`skills/unslop/`](skills/unslop/) |
+| **Unslop** | Cut AI tells from writing and add human voice - puffery, em dashes, chatbot filler (original by [cursor/plugins](https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md), copied to `skills/unslop/` for local use) | [`skills/unslop/`](skills/unslop/) |
 
 ## The two I reach for most
 
@@ -65,6 +65,10 @@ README.md   - this file
 1. Create `skills/<name>/SKILL.md` (or template files) following the existing shape.
 2. Add a one-line entry to the table above and to `AGENTS.md` under `## Skills (this repo)`.
 3. Keep the skill self-contained - an agent should be able to run it with only the files in its folder.
+
+## Credits
+
+- **Unslop** - original skill by [cursor/plugins](https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md) (pstack/skills/unslop). Copied verbatim to [`skills/unslop/SKILL.md`](skills/unslop/SKILL.md) for local use.
 
 ---
 
