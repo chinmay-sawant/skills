@@ -14,6 +14,41 @@ This is not a product repo - it is my daily toolkit for backend and general deve
 | **Feynman** | Plain-words explainer loop - forces the agent to explain anything simply until I can retell it | [`skills/feynman/`](skills/feynman/) |
 | **Unslop** | Cut AI tells from writing and add human voice - puffery, em dashes, chatbot filler (original by [cursor/plugins](https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md), copied to `skills/unslop/` for local use) | [`skills/unslop/`](skills/unslop/) |
 
+## Install
+
+**Website:** [skills.sh/chinmay-sawant/developer-skills](https://skills.sh/chinmay-sawant/developer-skills)
+
+**Badge** (add to any README):
+```md
+[![skills.sh](https://skills.sh/b/chinmay-sawant/developer-skills)](https://skills.sh/chinmay-sawant/developer-skills)
+```
+
+**CLI** - pick one skill or all:
+
+```sh
+# list available skills in this repo
+npx skills add chinmay-sawant/developer-skills --list
+
+# install one skill
+npx skills add chinmay-sawant/developer-skills --skill PR
+npx skills add chinmay-sawant/developer-skills --skill feynman
+npx skills add chinmay-sawant/developer-skills --skill unslop
+
+# install all 3 skills
+npx skills add chinmay-sawant/developer-skills --skill '*'
+
+# interactive picker (no --skill flag)
+npx skills add chinmay-sawant/developer-skills
+```
+
+Direct skill pages:
+
+- [PR](https://skills.sh/chinmay-sawant/developer-skills/PR) - `npx skills add chinmay-sawant/developer-skills --skill PR`
+- [feynman](https://skills.sh/chinmay-sawant/developer-skills/feynman) - `npx skills add chinmay-sawant/developer-skills --skill feynman`
+- [unslop](https://skills.sh/chinmay-sawant/developer-skills/unslop) - `npx skills add chinmay-sawant/developer-skills --skill unslop`
+
+Verify locally after install: `npx skills add ./ --list` should show 3 skills.
+
 ## The two I reach for most
 
 ### 1. Feynman - the explainer (my "make it comprehensible" skill)
