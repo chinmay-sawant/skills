@@ -1,8 +1,10 @@
-# skills
+# developer-skills
 
 Personal collection of agent skills I use every day to get consistent results from any coding agent (opencode, codex, gemini, claude, cursor, etc.). Each skill lives under `skills/<name>/` and is picked up automatically when the agent reads `AGENTS.md`.
 
-This is not a product repo - it is my daily toolkit.
+This is not a product repo - it is my daily toolkit for backend and general development. Install with `npx skills add chinmay-sawant/developer-skills` or a single skill with `npx skills add chinmay-sawant/developer-skills --skill <name>`.
+
+[![skills.sh](https://skills.sh/b/chinmay-sawant/developer-skills)](https://skills.sh/chinmay-sawant/developer-skills)
 
 ## Skills
 
