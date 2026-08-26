@@ -28,7 +28,7 @@ It runs `/feynman <topic>` as a loop:
 
 It repeats until zero gaps remain and I could retell the explanation without the agent in the room. I use `/feynman this` to re-explain the current conversation and `/feynman me <topic>` to flip roles and get graded.
 
-Skill file: [`skills/feynman/SKILLS.md`](skills/feynman/SKILLS.md)
+Skill file: [`skills/feynman/SKILL.md`](skills/feynman/SKILL.md)
 
 ### 2. PR - the shipping skill
 
@@ -51,11 +51,12 @@ My agents are aware of these by default - I just say "make a PR" or "open an iss
 ```
 skills/
   PR/
+    SKILL.md
     PR_TEMPLATE.md
     ISSUE_TEMPLATE.md
     COMMENT_TEMPLATE.md
   feynman/
-    SKILLS.md
+    SKILL.md
   unslop/
     SKILL.md
 AGENTS.md   - placeholder conventions ledger (keep per-project details here)
